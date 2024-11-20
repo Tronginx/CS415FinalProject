@@ -1,0 +1,84 @@
+# Build artifacts
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build system
+.vscode/
+.idea/
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.sln
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+*.swp
+._*
+
+# Windows files
+Thumbs.db
+desktop.ini
+*.lnk
+
+# Unreal Engine-specific
+*.log
+*.patch
+*.pidb
+*.pdb
+*.log~
+*.dat
+
+# Auto-generated files
+*.o
+*.obj
+*.lo
+*.a
+*.la
+*.so
+*.dll
+*.dylib
+*.lib
+*.exe
+*.out
+*.app
+
+# Config files
+config.local/
+*.ini.bak
+
+# Exclude large cache files
+DerivedDataCache/
+
+# Unreal Engine plugins and caches
+Plugins/Developer/
+*.uasset
+*.umap
+*.uprojectdirs
+
+# Exclude Generated Configurations
+*.opensdf
+*.sdf
+*.vcxproj
+*.vcxproj.filters
+*.VC.opendb
+
+# Ignore the project-specific Derived Data Cache
+DerivedDataCache/
+
+# Engine Files
+Engine/Extras/
+Engine/Source/ThirdParty/
+
+# Exclude specific user data
+*.uproject.log
+*.autosave
+*.backup
